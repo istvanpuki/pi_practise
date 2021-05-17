@@ -1,3 +1,5 @@
+@media screen and (max-width: 1200px)
+
 header {
     height: 40px;
 }
@@ -6,6 +8,32 @@ header {
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+
+.item {
+    width: 33%;
+}
+
+.one {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 2048px)
+
+header {
+    height: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
 }
 
 
