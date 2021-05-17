@@ -9,7 +9,10 @@ header {
 }
 
 
+.item {
+    width: 33%;
+}
 
-.item one {
+.one {
     width: 100%;
 }
