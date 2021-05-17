@@ -1,0 +1,15 @@
+header {
+    height: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.item one {
+    width: 100%;
+}
